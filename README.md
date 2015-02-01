@@ -10,6 +10,8 @@ Emoji         | Language
 	- [:squirrel: Counting DNA Nucleotides](Rosalind/String\ Algorithms/dna.go)
 	- [:squirrel: Transcribing DNA into RNA](Rosalind/String\ Algorithms/rna.go)
 	- [:squirrel: Complementing a Strand of DNA](Rosalind/String\ Algorithms/revc.go)
+- Alignment
+	- [:squirrel: Counting Point Mutations](Rosalind/Alignment/hamm.go)
 
 ##Hacker Rank
 - Algorithms
