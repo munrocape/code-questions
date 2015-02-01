@@ -3,7 +3,15 @@ My solutions for assorted HackerRank problems.
 Emoji         | Language
 ------------- | -------------
 :snake:       | Python 2
+:squirrel:    | Golang
 
+##Rosalind
+- String Algorithms
+	- [:squirrel: Counting DNA Nucleotides](Rosalind/String\ Algorithms/dna.go)
+	- [:squirrel: Transcribing DNA into RNA](Rosalind/String\ Algorithms/rna.go)
+	- [:squirrel: Complementing a Strand of DNA](Rosalind/String\ Algorithms/revc.go)
+
+##Hacker Rank
 - Algorithms
 	- Warmup
 		- [:snake: Flipping Bits](HackerRank/Algorithms/Warmup/flipping_bits.py)
