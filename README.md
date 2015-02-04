@@ -1,4 +1,4 @@
-My solutions for assorted HackerRank problems.
+My solutions for assorted HackerRank and Rosalind problems.
 
 Emoji         | Language
 ------------- | -------------
@@ -12,6 +12,8 @@ Emoji         | Language
 	- [:squirrel: Complementing a Strand of DNA](Rosalind/String\ Algorithms/revc.go)
 - Alignment
 	- [:squirrel: Counting Point Mutations](Rosalind/Alignment/hamm.go)
+- Combinatorics
+	- [:squirrel: Enumerating Gene Orders](Rosalind/Combinatorics/perm.go)
 
 ##Hacker Rank
 - Algorithms
