@@ -1,9 +1,18 @@
 package main
 
-import "fmt"
+import ("fmt")
 
-func convertToProtein(rna string, rnaDict map[string]string) string{
-	return ""
+func printRnaToProtein(rna string, rnaDict map[string]string) {
+	length := len(rna)
+	var codon string
+	for i := 0; i < length; i+= 3 {
+		codon = rna[i:i+3]
+		protein := rnaDict[codon]
+		if protein == "STOP" {
+			return
+		}
+		fmt.Printf(protein)
+	}
 }
 
 func main() {
@@ -89,8 +98,7 @@ func main() {
     rnaToProtein["GGA"] = "G"
     rnaToProtein["GGG"] = "G"
 
-    rna := ""
-    
-    fmt.Printf(convertToProtein(rna, rnaToProtein))
-
+    rna := "AUGGCCAUGGCGCCCAGAACUGAGAUCAAUAGUACCCGUAUUAACGGGUGA"
+    printRnaToProtein(rna, rnaToProtein)
+    fmt.Printf("\n")
 }

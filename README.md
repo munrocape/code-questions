@@ -14,6 +14,8 @@ Emoji         | Language
 	- [:squirrel: Counting Point Mutations](Rosalind/Alignment/hamm.go)
 - Combinatorics
 	- [:squirrel: Enumerating Gene Orders](Rosalind/Combinatorics/perm.go)
+- Uncategorized
+	- [:squirrel: Translating RNA into Protein](Rosalind/Uncategorized/prot.go)
 
 ##Hacker Rank
 - Algorithms
